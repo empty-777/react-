@@ -1,0 +1,69 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+a, a:hover {
+  text-decoration: none !important;
+  transition: 0.4s all !important;
+  cursor: pointer;
+  -webkit-transition: 0.4s all !important;
+  -moz-transition: 0.4s all !important;
+  -ms-transition: 0.4s all !important;
+  -o-transition: 0.4s all !important;
+}
+
+ol, ul, li {
+  list-style: none !important;
+}
+
+.container {
+  max-width: 1640px !important;
+  margin: 0 auto !important;
+}
+
+.error {
+  color: red;
+  font-size: 20px;
+}
+
+.header {
+  background-color: #1B1A33;
+}
+.header .container {
+  max-width: 1640px;
+  margin: 0 auto !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+.header .container .navbar-brand {
+  position: relative;
+  margin-bottom: -65px !important;
+  padding-top: 15px !important;
+}
+.header .container .navbar-collapse {
+  justify-content: end;
+}
+.header .container .navbar-collapse .navbar-nav .nav-link {
+  font-size: 25px;
+  text-transform: uppercase;
+  padding-right: 30px !important;
+  color: #D1A8AD;
+}
+.header .container .navbar-collapse .navbar-nav .nav-link:last-child {
+  padding-right: 0px !important;
+}/*# sourceMappingURL=main.css.map */

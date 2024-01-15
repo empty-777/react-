@@ -1,0 +1,51 @@
+{
+    "users":[
+    {
+        "id": 1,
+        "name": "Schauspiel"
+    },
+    {
+        "id": 2,
+        "name": "News"
+    },
+    {
+        "id": 3,
+        "name": "Vita"
+    },
+    {
+        "id": 4,
+        "name": "Filmografie"
+    },
+    {
+        "id": 5,
+        "name": "Galerie"
+    },
+    {
+        "id": 6,
+        "name": "Voice Over"
+    },
+    {
+        "id": 7,
+        "name": "Engagement"
+    }
+    ],
+    "banner-content":[
+        {
+            "image":""
+        }
+    ],
+    "banner-content1":[
+        {
+            "id":8,
+            "text":"Valerie Niehaus",
+            "text2":"Schauspielerin. Sprecherin.",
+            "text3":"Film ab",
+            "text4":"Schauspielerin. Sprecherin.",
+            "button":"Film ab.",
+            "backgroud-img":"../src/image/banner-img.png"
+            
+
+        }
+    ]
+
+}

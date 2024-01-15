@@ -1,0 +1,79 @@
+@mixin mq($point){
+    @if $point ==  xxxl{
+        @media (max-width: 1700px) {
+            @content ;
+        }
+    }
+
+    @else if $point ==  xxl{
+        @media (max-width: 1399px) {
+            @content ;
+        }
+    }
+
+    @else if $point ==  laptop{
+        @media (max-width: 1199px) {
+            @content ;
+        }
+    }
+    @else if $point ==  tablet{
+        @media (max-width: 991px) {
+            @content ;
+        }
+    }
+
+    @else if $point ==  Stablet{
+        @media (max-width: 767px) {
+            @content ;
+        }
+    }
+
+    @else if $point ==  phone{
+        @media (max-width:  575px) {
+            @content ;
+        }
+    }
+
+    @else if $point ==  smphone{
+        @media (max-width:  480px) {
+            @content ;
+        }
+    }
+
+    @else if $point == landscape-mobile {
+        @media  screen and (min-width:600px ) and (max-width: 991px) and (orientation : landscape) {
+            @content ;
+        }
+
+    }
+}
+
+@mixin tranistions- {
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+}
+
+@mixin rotateY($deg){
+    transform: rotateY($deg);
+    -webkit-transform: rotateY($deg);
+    -moz-transform: rotateY($deg);
+    -ms-transform: rotateY($deg);
+    -o-transform: rotateY($deg);
+}
+@mixin rotate($deg){
+    transform: rotate($deg);
+    -webkit-transform: rotate($deg);
+    -moz-transform: rotate($deg);
+    -ms-transform: rotate($deg);
+    -o-transform: rotate($deg);
+}
+
+@mixin backgoundformat($image , $cover: cover , $position:center) {
+    background-image: $image;
+    background-position: $position;
+    background-size: $cover;
+    background-repeat: no-repeat;
+}

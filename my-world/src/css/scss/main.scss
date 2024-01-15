@@ -1,0 +1,31 @@
+@import './default';
+@import './variables';
+@import './common'; 
+.header{
+    background-color: $darkblue;
+    .container{
+        max-width: 1640px;
+    margin: 0 auto !important;
+    padding-left: 0;
+    padding-right: 0;
+    .navbar-brand{
+        position: relative;
+        margin-bottom: -65px !important; 
+        padding-top: 15px !important;
+    }
+        .navbar-collapse{
+            justify-content: end ;
+        .navbar-nav{ 
+            .nav-link{
+                font-size: 25px;
+                text-transform: uppercase;
+            padding-right: 30px !important;
+            color: #D1A8AD;
+            &:last-child{
+                padding-right: 0px !important;
+            }
+            }
+        }
+    }
+}
+}
