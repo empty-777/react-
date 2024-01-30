@@ -1,0 +1,24 @@
+@mixin bk($breakpoint){
+    @if $breakpoint == desktop{
+        @media ( max-width: 1399px) {
+            @content;
+        }
+        
+    }
+    
+}
+@mixin dispayflex{
+    display: flex;
+    align-items: center;
+}
+@mixin dispayflex-space{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin inset{
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}

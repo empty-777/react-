@@ -1,0 +1,47 @@
+{
+    "users": [
+        {
+            "name":"Home",
+            "id":"1"
+            
+        },
+        {
+            "name":"Departments",
+            "id":"2"
+        },
+        {
+            "name":"Timetable",
+            "id":"3"
+        },
+        {
+            "name":"Features",
+            "id":"4"
+        },
+        {
+            "name":"Doctors",
+            "id":"5"
+        },
+        {
+            "name":"Post Types",
+            "id":"6"
+        }
+
+    ] ,
+    "banner":[
+        {
+            "text1":"Health our doctors",
+            "h1":"Healthcare just for kids. Saving children.",
+            "text2":"Every day we bring hope to millions of children in the world's"
+        }
+    ],
+    "best-medical":[
+        {
+            "best":"Welcome to muntion",
+            "h2":"The Best Medical Health Solution",
+            "text3":"Lorem ipsum dolor sit amet, cadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "text4":"How do I get a refill on my prescription?",
+            "text5":"Lorem ipsum dolor sit amconet dipisicing elit, sed do eiusmod tempor",
+            "text6":"Strong contacts refill on my creative Solutions"
+        }
+    ]
+}

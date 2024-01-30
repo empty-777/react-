@@ -1,0 +1,210 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+a, a:hover {
+  text-decoration: none;
+  transition: 0.4s all;
+  cursor: pointer;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("../fonts/mulii/Muli.woff2") format("woff2"), url("../fonts/mulii/Muli.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Muli";
+  src: url("../fonts/mulii/Muli-Bold.woff2") format("woff2"), url("../fonts/mulii/Muli-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Muli";
+  src: url("../fonts/mulii/Muli-ExtraBold.woff2") format("woff2"), url("../fonts/mulii/Muli-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mangal";
+  src: url("../fonts/mangel/Mangal-Regular.woff2") format("woff2"), url("../fonts/mangel/Mangal-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Muli";
+  src: url("../fonts/mulii/Muli-SemiBold.woff2") format("woff2"), url("../fonts/mulii/Muli-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Muli";
+  src: url("../fonts/mulii/Muli-Black.woff2") format("woff2"), url("../fonts/mulii/Muli-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Times New Roman Cyr";
+  src: url("../fonts/times_new/TimesNRCyrMT.woff2") format("woff2"), url("../fonts/times_new/TimesNRCyrMT.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+header .header-top {
+  background-color: #083791;
+  padding: 16px 0px;
+}
+header .header-top .header-top-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-top .header-top-in a {
+  font-size: 13px;
+  color: #FFFFFF;
+  font-family: "Mangal";
+}
+header .header-top .header-top-in .ul-help {
+  display: flex;
+  align-items: center;
+}
+header .header-top .header-top-in .ul-help li {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 2px solid #fff;
+}
+header .header-top .header-top-in .ul-help li a {
+  font-size: 13px;
+  color: #FFFFFF;
+  font-family: "Mangal";
+}
+header .header-top .header-top-in .ul-help :last-child {
+  padding-right: 0px;
+  border-right: unset;
+}
+header .header-top .header-top-in .ul-help :first-child {
+  padding-left: 0px;
+}
+header .header-btm .navigator {
+  padding: 26px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-btm .navigator .nav-right a {
+  margin-right: 30px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #083791;
+  font-weight: 600;
+  transition: 0.4s;
+  font-family: "Muli";
+}
+header .header-btm .navigator .nav-right :hover {
+  color: #ff8e32;
+}
+header .header-btm .navigator .nav-right .hed-btn {
+  border: unset;
+  background-color: transparent;
+}
+
+.container {
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.banner {
+  position: relative;
+  color: #083791;
+}
+.banner .banner-bck {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+.banner .banner-bck img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.banner .banner-wrapper {
+  padding: 183px 0px;
+}
+.banner .banner-wrapper .ourdoc {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: "Muli";
+  padding-bottom: 22px;
+  display: inline-block;
+}
+.banner .banner-wrapper .h1tag {
+  max-width: 600px;
+}
+.banner .banner-wrapper .h1tag h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+.banner .banner-wrapper .childs {
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 600;
+  padding-top: 22px;
+  display: inline-block;
+}
+.banner .banner-wrapper .com_anchor {
+  margin-top: 48px;
+  max-width: 229px;
+  min-height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .banner-wrapper .com_anchor :hover {
+  background-color: #083791;
+}
+.banner .banner-wrapper .com_anchor a {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-size: 17px;
+  line-height: 1.2;
+  color: #ffffff;
+  font-weight: 600;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff8e32;
+  transition: 0.4s;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
